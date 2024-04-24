@@ -8,7 +8,7 @@
 
 body
 {
-    color: white;
+    color: seagreen;
 }
 
 .header
@@ -20,7 +20,7 @@ body
     padding: 10px 10px;
     background: transparent;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     z-index: 100;
 }
@@ -29,7 +29,7 @@ body
 {
     position: relative;
     font-size: 25px;
-    color: white;
+    color: pink;
     text-decoration: none;
     font-weight: 600;
 }
@@ -38,7 +38,7 @@ body
 {
     display: inline-block;
     font-size: 25px;
-    color: white;
+    color: blue;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
@@ -54,7 +54,11 @@ body
 {
     position: relative;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 100%;
-    /* background: ; */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
 }
