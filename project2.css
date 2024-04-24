@@ -52,5 +52,9 @@ body
 
 .home 
 {
-    
+    position: relative;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 100%;
+    /* background: ; */
 }
